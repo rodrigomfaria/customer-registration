@@ -1,0 +1,74 @@
+# .gitignore para projeto Java / Maven
+
+# Maven
+/target/
+!/.mvn/wrapper/maven-wrapper.jar
+/.mvn/wrapper/
+
+# Allow module build dirs (se necessário)
+# (mantido para compatibilidade com builds de módulos dentro de src)
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Builds
+/build/
+/out/
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+.apt_generated
+.factorypath
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Gradle
+.gradle/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+tmp/
+
+# Compiled Java class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Environment files
+.env
+
+# IDE specific local run configs
+/hs_err_pid*
+
+# Misc
+*.swp
+*~
+
+# Keep track of IDE/machine specific files if needed by uncommenting
+# !.idea/description
